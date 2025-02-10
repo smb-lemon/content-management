@@ -24,3 +24,6 @@ Hero component updated with hero.svg image and random dummy data (lorem ipsam).
 
 [unDraw](https://undraw.com)
 
+### API Configure
+
+To set api, SpaceId and AccessToken are available in [Contentful](https://contentful.com).
