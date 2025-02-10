@@ -50,3 +50,7 @@ We will create custom hook so that we can display the loading info and the proje
 ### Project Log
 
  We can import the fetchProject into projects.Then initiate the loading and project as fetchProject and log them into the console.
+
+### Render Project
+
+For loading,we can add the loading into if condition and output h2 element.In the return, we can add a section with class projects.Under the section, we have a div with class title and inside that div we have another div with class title-underline. Then we have another div with classname project-center.Once the user clicks on the card, there will be navigated to actual location of that card.So we can map of projects on display all our cards.Setting id, title, image, url into map, we can get all our values.In map, we can return a link assosiated with key, href, target, rel, classname. Also a img tag for the image. 
