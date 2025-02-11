@@ -54,3 +54,11 @@ We will create custom hook so that we can display the loading info and the proje
 ### Render Project
 
 For loading,we can add the loading into if condition and output h2 element.In the return, we can add a section with class projects.Under the section, we have a div with class title and inside that div we have another div with class title-underline. Then we have another div with classname project-center.Once the user clicks on the card, there will be navigated to actual location of that card.So we can map of projects on display all our cards.Setting id, title, image, url into map, we can get all our values.In map, we can return a link assosiated with key, href, target, rel, classname. Also a img tag for the image. 
+
+### Deploy 
+
+Singing up Netlify and push the repo to deploy for the deployment.
+
+### Webhook
+
+Webhook is a feature which essentially allow us to dynamically build our application on Netlify every single time we will make some changes to our data in Contentful.To set up webhook, we can go to netlify, find Build Hook option and set a hook using any random name. We can copy the url and move to the Contentful site and look for webhook option.Then we can add with a name and paste the url which we got from netlify. Then we are good to update the data and netlify site will automatically update this for us. 
