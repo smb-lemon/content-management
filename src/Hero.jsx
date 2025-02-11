@@ -8,8 +8,9 @@ function Hero() {
             <div className="hero-title">
                 <h1>Content Management</h1>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, accusantium? Illo suscipit fuga commodi laborum error nihil, 
-                    architecto nostrum adipisci beatae, officia cupiditate magnam? Praesentium pariatur aspernatur quam dicta aliquid.
+                Content management is a platform that helps users create, manage, store, and modify their digital content. 
+                This all-encompassing system is a one-stop-shop to store content—such as apps, images, and websites—in a user-friendly 
+                interface that is customizable to an organization’s needs and their employees.
                 </p>
             </div>
             <div className="img-container">
